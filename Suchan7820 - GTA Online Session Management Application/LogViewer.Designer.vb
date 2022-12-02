@@ -32,6 +32,7 @@ Partial Class LogViewer
         '
         'Logbox
         '
+        Me.Logbox.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.Logbox.ContextMenuStrip = Me.LogController
         Me.Logbox.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Logbox.Font = New System.Drawing.Font("맑은 고딕", 11.0!)
@@ -40,7 +41,7 @@ Partial Class LogViewer
         Me.Logbox.ReadOnly = True
         Me.Logbox.Size = New System.Drawing.Size(444, 531)
         Me.Logbox.TabIndex = 0
-        Me.Logbox.Text = ""
+        Me.Logbox.Text = "I am cute and lovely"
         '
         'LogController
         '

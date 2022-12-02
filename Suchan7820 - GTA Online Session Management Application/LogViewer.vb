@@ -23,4 +23,8 @@
             Logbox.Text = IO.File.ReadAllText(logpath)
         End If
     End Sub
+
+    Private Sub Logbox_TextChanged(sender As Object, e As EventArgs) Handles Logbox.TextChanged
+
+    End Sub
 End Class
