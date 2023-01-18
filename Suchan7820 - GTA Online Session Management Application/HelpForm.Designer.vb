@@ -50,9 +50,9 @@ Partial Class HelpForm
         Me.Label1.AutoSize = True
         Me.Label1.Location = New System.Drawing.Point(6, 21)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(336, 57)
+        Me.Label1.Size = New System.Drawing.Size(314, 57)
         Me.Label1.TabIndex = 1
-        Me.Label1.Text = "10초 동안 GTA 온라인 세션과의 연결을 해제합니다." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "일정 플레이어가 모여야 시작되는 작업들의 경우" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "이 기능을 사용하면 임무가 취소됩니다."
+        Me.Label1.Text = "GTA 온라인 세션과의 연결을 해제합니다." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "일정 플레이어가 모여야 시작되는 작업들의 경우" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "이 기능을 사용하면 임무가 취소됩니다."
         '
         'GroupBox1
         '
@@ -63,17 +63,17 @@ Partial Class HelpForm
         Me.GroupBox1.Size = New System.Drawing.Size(360, 87)
         Me.GroupBox1.TabIndex = 0
         Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "GTA 온라인 세션 방화벽 생성(호스트)"
+        Me.GroupBox1.Text = "GTA 온라인 세션 방화벽 생성"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
         Me.Label2.Location = New System.Drawing.Point(6, 21)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(341, 57)
+        Me.Label2.Size = New System.Drawing.Size(328, 57)
         Me.Label2.TabIndex = 2
-        Me.Label2.Text = "GTA 온라인이 사용하는 세션 포트를 차단합니다." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "GTA 온라인의 세션 정보를 차단하기 때문에" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "자신 빼고는 아무도 현재 세션에 참가할 수 없습" &
-    "니다."
+        Me.Label2.Text = "GTA 온라인이 사용하는 세션 포트를 차단합니다." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "플레이어가 보내는 데이터를 모두 차단하기 때문에" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "자신을 제외하고 모두 세션에 참가할 수 없습" &
+    "니다." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
         'GroupBox2
         '
@@ -84,16 +84,16 @@ Partial Class HelpForm
         Me.GroupBox2.Size = New System.Drawing.Size(360, 87)
         Me.GroupBox2.TabIndex = 0
         Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "GTA 온라인 세션 방화벽 제거(호스트)"
+        Me.GroupBox2.Text = "GTA 온라인 세션 방화벽 제거"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
         Me.Label3.Location = New System.Drawing.Point(6, 21)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(341, 57)
+        Me.Label3.Size = New System.Drawing.Size(350, 57)
         Me.Label3.TabIndex = 3
-        Me.Label3.Text = "GTA온라인이 사용하는 세션 포트를 개방합니다." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "플레이어가 현재 세션의 정보를 받을 수 있게 됩니다." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "이후 플레이어가 현재 세션에 참가할 수 " &
+        Me.Label3.Text = "GTA온라인이 사용하는 세션 포트를 개방합니다." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "다른 플레이어가 보내는 세션 데이터를 다시 받습니다." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "이후 플레이어가 현재 세션에 참가할 수 " &
     "있습니다."
         '
         'MadeBySuchan7820

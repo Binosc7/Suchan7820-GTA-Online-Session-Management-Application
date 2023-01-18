@@ -56,7 +56,6 @@ Public Class Main
         SessionMaker.Enabled = False
         SessionMaker.Text = "잠시만 기다려 주세요..."
         SessionMakerTime.Start()
-        My.Computer.FileSystem.WriteAllText(last_recent_act, "마지막 실행 : 1P Public Session Creation", False)
     End Sub
     Private Sub SessionMakerTime_Tick(sender As Object, e As EventArgs) Handles SessionMakerTime.Tick '1세 10초 타이머
         Dim game As Process() = Process.GetProcessesByName("GTA5")
