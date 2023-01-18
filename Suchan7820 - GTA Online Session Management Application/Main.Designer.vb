@@ -49,7 +49,7 @@ Partial Class Main
         Me.MadeBySuchan7820.Name = "MadeBySuchan7820"
         Me.MadeBySuchan7820.Size = New System.Drawing.Size(353, 20)
         Me.MadeBySuchan7820.TabIndex = 0
-        Me.MadeBySuchan7820.Text = "Copyright ⓒ 2022 Suchan7820. All rights reserved."
+        Me.MadeBySuchan7820.Text = "Copyright ⓒ 2023 Suchan7820. All rights reserved."
         '
         'ProcNotier
         '
